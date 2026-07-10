@@ -215,10 +215,59 @@ th {
   border-color: #b7dcc8;
 }
 
-.pill.defeated {
-  background: #f8eaea;
-  border-color: #e3c0c0;
+.attack-card {
+  border-color: #e0b4b0;
+  background: #fff8f7;
 }
+
+.attack-row {
+  background: #fff5f3;
+}
+
+.topnav {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 14px 20px 0;
+  display: flex;
+  gap: 14px;
+  font-size: 14px;
+}
+
+.topnav a {
+  color: var(--muted);
+  text-decoration: none;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.topnav a.active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+  font-weight: 650;
+}
+
+.home-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 120ms ease;
+}
+
+.home-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.home-card h2 {
+  margin: 0 0 8px;
+}
+
+.pill.completed,
+.pill.succeeded {
+  background: #e7f5ee;
+  border-color: #b7dcc8;
+}
+
 
 .calc-row {
   display: grid;
