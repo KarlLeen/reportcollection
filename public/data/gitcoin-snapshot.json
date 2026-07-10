@@ -1,0 +1,2713 @@
+{
+  "meta": {
+    "dao": "Gitcoin",
+    "generatedAt": "2026-07-10T08:35:09.457Z",
+    "blockNumber": 25501023,
+    "blockTimestamp": 1783672427,
+    "sources": [
+      "Alchemy RPC",
+      "Tally GraphQL",
+      "Snapshot Hub",
+      "CoinGecko"
+    ],
+    "notes": [
+      "On-chain votes are signaling-heavy post April 2026 treasury custody move to multisig.",
+      "Delegate VP cross-checked via GTC.getVotes for top 100 at snapshot block.",
+      "Liquid treasury may sit in a 4-of-5 Safe not fully enumerated here.",
+      "On-chain proposals sourced from Tally (Alchemy free tier limits eth_getLogs to 10 blocks).",
+      "Top voting-power address closely matches Timelock GTC balance \u2014 likely treasury-linked delegation cluster."
+    ]
+  },
+  "summary": {
+    "symbol": "GTC",
+    "gtcPriceUsd": 0.069347,
+    "totalSupply": 100000000,
+    "totalVotingPower": 16308423.18246786,
+    "delegateCount": 160,
+    "gini": 0.9688214350324604,
+    "top10Share": 0.9561001537073408,
+    "top20Share": 0.9763241236296599,
+    "nakamotoCoefficient": 1,
+    "quorumVotes": 2500000,
+    "proposalThreshold": 150000
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "address": "0x5743E35477363241300FcEdc2F5eB0195F300817",
+      "ens": "",
+      "name": "Timelock-linked / treasury VP cluster",
+      "votingPower": 12508498.263341596,
+      "share": 0.7669961788083033,
+      "delegatorsCount": 2
+    },
+    {
+      "rank": 2,
+      "address": "0x00De4B13153673BCAE2616b67bf822500d325Fc3",
+      "ens": "kev.eth",
+      "name": "kev.eth",
+      "votingPower": 1555539.5886998635,
+      "share": 0.0953825867342052,
+      "delegatorsCount": 22
+    },
+    {
+      "rank": 3,
+      "address": "0x93F80a67FdFDF9DaF1aee5276Db95c8761cc8561",
+      "ens": "",
+      "name": "",
+      "votingPower": 500000,
+      "share": 0.030659003289632437,
+      "delegatorsCount": 11
+    },
+    {
+      "rank": 4,
+      "address": "0xc2E2B715d9e302947Ec7e312fd2384b5a1296099",
+      "ens": "kbw.eth",
+      "name": "kbw",
+      "votingPower": 484553.16315032984,
+      "share": 0.02971183404605553,
+      "delegatorsCount": 241
+    },
+    {
+      "rank": 5,
+      "address": "0xb35659cbac913D5E4119F2Af47fD490A45e2c826",
+      "ens": "eventhorizoncommunity.eth",
+      "name": "Event Horizon DAO",
+      "votingPower": 152245.31456284117,
+      "share": 0.009335379200026545,
+      "delegatorsCount": 40
+    },
+    {
+      "rank": 6,
+      "address": "0x2B888954421b424C5D3D9Ce9bB67c9bD47537d12",
+      "ens": "lefteris.eth",
+      "name": "Lefteris Karapetsas | Hiring for @rotkiapp",
+      "votingPower": 100381.84496482354,
+      "share": 0.006155214629991797,
+      "delegatorsCount": 372
+    },
+    {
+      "rank": 7,
+      "address": "0x5a5D9aB7b1bD978F80909503EBb828879daCa9C3",
+      "ens": "cerv1.eth",
+      "name": "cerv1.eth",
+      "votingPower": 90498.63213243068,
+      "share": 0.005549195720510856,
+      "delegatorsCount": 48
+    },
+    {
+      "rank": 8,
+      "address": "0x31cd90C2788f3e390d2Bb72871f5aD3F1a4B22a1",
+      "ens": "",
+      "name": "LuukDAO",
+      "votingPower": 90000,
+      "share": 0.005518620592133839,
+      "delegatorsCount": 2
+    },
+    {
+      "rank": 9,
+      "address": "0x5e349eca2dc61aBCd9dD99Ce94d04136151a09Ee",
+      "ens": "lindaxie.eth",
+      "name": "Linda Xie",
+      "votingPower": 62871.750277589315,
+      "share": 0.00385517039717112,
+      "delegatorsCount": 880
+    },
+    {
+      "rank": 10,
+      "address": "0x80D63799b1e08a80f73FB7a83264b5c31600bF3a",
+      "ens": "hudson.eth",
+      "name": "hudsonjameson",
+      "votingPower": 47897.35435240441,
+      "share": 0.0029369702893101146,
+      "delegatorsCount": 159
+    },
+    {
+      "rank": 11,
+      "address": "0x54BeCc7560a7Be76d72ED76a1f5fee6C5a2A7Ab6",
+      "ens": "simona.eth",
+      "name": "simona pop \ud83d\udd25",
+      "votingPower": 45892.424419908166,
+      "share": 0.0028140319825183447,
+      "delegatorsCount": 263
+    },
+    {
+      "rank": 12,
+      "address": "0x4C0a466DF0628FE8699051b3Ac6506653191cc21",
+      "ens": "trent.eth",
+      "name": "trent.eth",
+      "votingPower": 41516.12031800783,
+      "share": 0.002545685738805156,
+      "delegatorsCount": 201
+    },
+    {
+      "rank": 13,
+      "address": "0x7A45E23cbb7765900f02c54757498beF01C2b18F",
+      "ens": "coday.eth",
+      "name": "coday.eth",
+      "votingPower": 41317.86730162195,
+      "share": 0.0025335292590420474,
+      "delegatorsCount": 21
+    },
+    {
+      "rank": 14,
+      "address": "0x34aA3F359A9D614239015126635CE7732c18fDF3",
+      "ens": "austingriffith.eth",
+      "name": "Austin Griffith",
+      "votingPower": 41173.316453172716,
+      "share": 0.0025246656891657992,
+      "delegatorsCount": 647
+    },
+    {
+      "rank": 15,
+      "address": "0xd9ffaF2e880dF0cc7B7104e9E789d281a81824cf",
+      "ens": "",
+      "name": "@UBIpromoter",
+      "votingPower": 38210.78696373075,
+      "share": 0.002343009286440931,
+      "delegatorsCount": 157
+    },
+    {
+      "rank": 16,
+      "address": "0x2df9a188fBE231B0DC36D14AcEb65dEFbB049479",
+      "ens": "janineleger.eth",
+      "name": "janineleger.eth",
+      "votingPower": 31363.07578971482,
+      "share": 0.0019231212876197163,
+      "delegatorsCount": 24
+    },
+    {
+      "rank": 17,
+      "address": "0xdd00Cc906B93419814443Bb913949d503B3DF3c4",
+      "ens": "devdao.eth",
+      "name": "devdao.eth",
+      "votingPower": 25000.01,
+      "share": 0.0015329507776616876,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 18,
+      "address": "0x7E052Ef7B4bB7E5A45F331128AFadB1E589deaF1",
+      "ens": "kris.eth",
+      "name": "Kris Is \ud83c\udf88",
+      "votingPower": 23577.241887275504,
+      "share": 0.0014457094731648787,
+      "delegatorsCount": 33
+    },
+    {
+      "rank": 19,
+      "address": "0x66b1De0f14a0ce971F7f248415063D44CAF19398",
+      "ens": "yalor.eth",
+      "name": "Yalor",
+      "votingPower": 22985.494040406204,
+      "share": 0.0014094246747972813,
+      "delegatorsCount": 165
+    },
+    {
+      "rank": 20,
+      "address": "0x8B405dBf2F30844B608b08DaD20447A6955A6C6E",
+      "ens": "",
+      "name": "auryn",
+      "votingPower": 18784.722748845397,
+      "share": 0.0011518417531033685,
+      "delegatorsCount": 125
+    },
+    {
+      "rank": 21,
+      "address": "0x839395e20bbB182fa440d08F850E6c7A8f6F0780",
+      "ens": "griff.eth",
+      "name": "Griff Green",
+      "votingPower": 18200.551922323142,
+      "share": 0.0011160215625192623,
+      "delegatorsCount": 254
+    },
+    {
+      "rank": 22,
+      "address": "0xA30Ab83e693Ad49F3F651085DaD11d049c818923",
+      "ens": "anneconnelly.eth",
+      "name": "Anne Connelly",
+      "votingPower": 12519.224480803183,
+      "share": 0.0007676538890811834,
+      "delegatorsCount": 329
+    },
+    {
+      "rank": 23,
+      "address": "0x02Eb89D2ff910989024e19673f8302a695bBD979",
+      "ens": "yellow.niran.eth",
+      "name": "yellow.niran.eth",
+      "votingPower": 12368.94310329589,
+      "share": 0.0007584389345864503,
+      "delegatorsCount": 259
+    },
+    {
+      "rank": 24,
+      "address": "0xCf7C21DeD40f2Df85A564207A89b3379780d9CE3",
+      "ens": "epowell101.eth",
+      "name": "epowell101.eth",
+      "votingPower": 12080.13575189633,
+      "share": 0.000740729843513192,
+      "delegatorsCount": 4
+    },
+    {
+      "rank": 25,
+      "address": "0x5C04E7808455ee0e22c2773328C151d0DD79dC62",
+      "ens": "scopelift.eth",
+      "name": "scopelift.eth",
+      "votingPower": 11681.856582176,
+      "share": 0.0007163081587638967,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 26,
+      "address": "0x8477981dbd957ae4c6a249544E43915218948404",
+      "ens": "iopen.eth",
+      "name": "iopen.eth",
+      "votingPower": 10236.339813891365,
+      "share": 0.0006276719520557818,
+      "delegatorsCount": 14
+    },
+    {
+      "rank": 27,
+      "address": "0x554c5aF96E9e3c05AEC01ce18221d0DD25975aB4",
+      "ens": "zak.eth",
+      "name": "zak.eth",
+      "votingPower": 10055.330183716223,
+      "share": 0.000616572802361792,
+      "delegatorsCount": 132
+    },
+    {
+      "rank": 28,
+      "address": "0x4f0a1940De411285ad0455a7F40C81B5E0BC8492",
+      "ens": "jujuba.eth",
+      "name": "jujuba.eth",
+      "votingPower": 9078.058131458936,
+      "share": 0.000556648428231748,
+      "delegatorsCount": 77
+    },
+    {
+      "rank": 29,
+      "address": "0x942fEC89e62C34Ecfb26694654bEC567FBDF68B5",
+      "ens": "5489.eth",
+      "name": "5489.eth",
+      "votingPower": 8952.963264861462,
+      "share": 0.0005489778603786919,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 30,
+      "address": "0xA2BF1B0a7E079767B4701b5a1D9D5700eB42D1d1",
+      "ens": "kennethng.eth",
+      "name": "nkennethk",
+      "votingPower": 8723.789216592846,
+      "share": 0.00053492536457916,
+      "delegatorsCount": 221
+    },
+    {
+      "rank": 31,
+      "address": "0x24422361687270C1AC2DD3f336e1Bc130849617b",
+      "ens": "jespow.eth",
+      "name": "jespow.eth",
+      "votingPower": 7905.063,
+      "share": 0.00048472270504350333,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 32,
+      "address": "0x4f44A2df1889965384B71BA0B0815156C9E97c4a",
+      "ens": "",
+      "name": "",
+      "votingPower": 7788.939999999,
+      "share": 0.00047760227416543806,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 33,
+      "address": "0x5A384227B65FA093DEC03Ec34e111Db80A040615",
+      "ens": "matoken.eth",
+      "name": "Makoto Inoue ( matoken.eth )",
+      "votingPower": 7445.182887595016,
+      "share": 0.00045652377328538144,
+      "delegatorsCount": 95
+    },
+    {
+      "rank": 34,
+      "address": "0x71553dF14eFe2708BF16734AAB821af239A24d3B",
+      "ens": "",
+      "name": "pet3rpan",
+      "votingPower": 6734.127031336108,
+      "share": 0.00041292324561307295,
+      "delegatorsCount": 281
+    },
+    {
+      "rank": 35,
+      "address": "0x9A300AA0900348E5bA1A7014197D4e23721974E4",
+      "ens": "",
+      "name": "",
+      "votingPower": 6379.043287592278,
+      "share": 0.00039115021827799875,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 36,
+      "address": "0xc94Cc876a826bC75355569E696cB2304f3434709",
+      "ens": "",
+      "name": "",
+      "votingPower": 6291.129036983389,
+      "share": 0.0003857594916807517,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 37,
+      "address": "0x0e97143E4A06530e42c21aed824F1ea2E2710fFE",
+      "ens": "",
+      "name": "",
+      "votingPower": 6219.587627366038,
+      "share": 0.00038137271505514513,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 38,
+      "address": "0x03B79C0C1487a68AeabD9AA4ce779DaD77855F52",
+      "ens": "sinahab.eth",
+      "name": "sinahab",
+      "votingPower": 6146.765999999,
+      "share": 0.0003769074380291403,
+      "delegatorsCount": 15
+    },
+    {
+      "rank": 39,
+      "address": "0x73186b2A81952C2340c4eB2e74e89869E1183dF0",
+      "ens": "amyjung.eth",
+      "name": "Amy Jung",
+      "votingPower": 5442.323879149007,
+      "share": 0.0003337124514281491,
+      "delegatorsCount": 263
+    },
+    {
+      "rank": 40,
+      "address": "0xf503017D7baF7FBC0fff7492b751025c6A78179b",
+      "ens": "trueblocks.eth",
+      "name": "TrueBlocks",
+      "votingPower": 5155.809082544959,
+      "share": 0.0003161439352449254,
+      "delegatorsCount": 183
+    },
+    {
+      "rank": 41,
+      "address": "0xB2d60143097b4F992BfBE955a22dbb2AcD9a8EAb",
+      "ens": "fauler.eth",
+      "name": "fauler.eth",
+      "votingPower": 5081.489326708674,
+      "share": 0.0003115867959675867,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 42,
+      "address": "0xD23aff9aD562C445BCaB03321CBfE63bf4b0BcF2",
+      "ens": "",
+      "name": "",
+      "votingPower": 5041.374547003079,
+      "share": 0.0003091270376416733,
+      "delegatorsCount": 208
+    },
+    {
+      "rank": 43,
+      "address": "0x16D2AD8Cc04888b537bB7B631715335a901B57cA",
+      "ens": "planett.eth",
+      "name": "planett.eth",
+      "votingPower": 4682.288019214256,
+      "share": 0.0002871085675681928,
+      "delegatorsCount": 148
+    },
+    {
+      "rank": 44,
+      "address": "0xe4b420F15d6d878dCD0Df7120Ac0fc1509ee9Cab",
+      "ens": "bybus.eth",
+      "name": "bybus.eth",
+      "votingPower": 4644.006067038513,
+      "share": 0.0002847611945728135,
+      "delegatorsCount": 26
+    },
+    {
+      "rank": 45,
+      "address": "0x86d3ee9ff0983Bc33b93cc8983371a500f873446",
+      "ens": "androolloyd.eth",
+      "name": "androolloyd.eth",
+      "votingPower": 4550.950504154062,
+      "share": 0.0002790552129556276,
+      "delegatorsCount": 213
+    },
+    {
+      "rank": 46,
+      "address": "0x6543c99d0e073c140Fd08A741c6cfdcd1449da94",
+      "ens": "gustavosegovia.eth",
+      "name": "gustavosegovia.eth",
+      "votingPower": 4491.823641975696,
+      "share": 0.00027542967163156324,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 47,
+      "address": "0x4a5B536A613E69F43a52f6Aa7A7F3765428329ad",
+      "ens": "coinqt.eth",
+      "name": "brittneyscott.eth (\ud83e\udd16,\u2764\ufe0f)",
+      "votingPower": 4333.33,
+      "share": 0.00026571115745012587,
+      "delegatorsCount": 3
+    },
+    {
+      "rank": 48,
+      "address": "0xB17Bd262B6cA454D297931151FEB332901B1a938",
+      "ens": "",
+      "name": "",
+      "votingPower": 4319.1266000000005,
+      "share": 0.00026484023327547795,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 49,
+      "address": "0x7221B104fba7701084759FD25FacA19Ac6300855",
+      "ens": "",
+      "name": "",
+      "votingPower": 4117.4567361972895,
+      "share": 0.00025247423923998387,
+      "delegatorsCount": 55
+    },
+    {
+      "rank": 50,
+      "address": "0x1F4890d11D29949522C4D4C0DE8D6Cb1293291Ae",
+      "ens": "",
+      "name": "",
+      "votingPower": 4107.233,
+      "share": 0.0002518473401165738,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 51,
+      "address": "0xbe368cc284A8303Ae4C76A1870d897cfEE2B0812",
+      "ens": "lthrift.eth",
+      "name": "lthrift.eth",
+      "votingPower": 4007.019497723303,
+      "share": 0.00024570244792464013,
+      "delegatorsCount": 12
+    },
+    {
+      "rank": 52,
+      "address": "0xaf0939af286A35DBfab7DEd7c777A5F6E8BE26A8",
+      "ens": "troggy.eth",
+      "name": "troggy.eth",
+      "votingPower": 3996.16079999,
+      "share": 0.00024503661422558724,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 53,
+      "address": "0x3564E17D5f6B7c9A3c6Bd6248BF7B3EeB4927e50",
+      "ens": "zemrose.eth",
+      "name": "zemrose.eth",
+      "votingPower": 3843.149299999,
+      "share": 0.00023565425406243587,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 54,
+      "address": "0x690F0581eCecCf8389c223170778cD9D029606F2",
+      "ens": "",
+      "name": "",
+      "votingPower": 3732.21,
+      "share": 0.00022885167733519815,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 55,
+      "address": "0x2D407dDb06311396fE14D4b49da5F0471447d45C",
+      "ens": "",
+      "name": "Andre Cronje",
+      "votingPower": 3617.937627990088,
+      "share": 0.00022184472327646618,
+      "delegatorsCount": 150
+    },
+    {
+      "rank": 56,
+      "address": "0xA1e2421A68f0208B75ACb0014a69E89b1F7492ea",
+      "ens": "tree.gweicz.eth",
+      "name": "\ud83c\udf34",
+      "votingPower": 3419.894599999,
+      "share": 0.0002097011195831311,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 57,
+      "address": "0x6f9BB7e454f5B3eb2310343f0E99269dC2BB8A1d",
+      "ens": "cp0x.eth",
+      "name": "cp0x",
+      "votingPower": 3360.6092912838403,
+      "share": 0.0002060658626332812,
+      "delegatorsCount": 2
+    },
+    {
+      "rank": 58,
+      "address": "0x15d64dA1ADcd6A636E57217B18F0ce75270B11cd",
+      "ens": "",
+      "name": "Narcov",
+      "votingPower": 3333,
+      "share": 0.00020437291592868983,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 59,
+      "address": "0xB28d2A7Dc98E2c4563D3320c5D9A355DAe6edFFf",
+      "ens": "",
+      "name": "",
+      "votingPower": 3091.9311999999995,
+      "share": 0.0001895910576642343,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 60,
+      "address": "0x31482858561725b74B5EC2a739e447BC74cdf7b9",
+      "ens": "",
+      "name": "cryptowanderer",
+      "votingPower": 2982.4797882766165,
+      "share": 0.0001828797152800701,
+      "delegatorsCount": 114
+    },
+    {
+      "rank": 61,
+      "address": "0xf4c7E772f24c10E3Ce60CE549059a021F60c911E",
+      "ens": "decibels42.eth",
+      "name": "decibels42.eth",
+      "votingPower": 2816.528188601004,
+      "share": 0.00017270389399932134,
+      "delegatorsCount": 148
+    },
+    {
+      "rank": 62,
+      "address": "0x58f123BD4261EA25955B362Be57D89F4B6E7110a",
+      "ens": "",
+      "name": "",
+      "votingPower": 2788.7026540028137,
+      "share": 0.00017099768768575794,
+      "delegatorsCount": 75
+    },
+    {
+      "rank": 63,
+      "address": "0x6375885ce997543CC7e057fE9aF3E255D52Fb4f4",
+      "ens": "ntnsndr.eth",
+      "name": "ntnsndr.eth",
+      "votingPower": 2764.5511711009435,
+      "share": 0.00016951676689828208,
+      "delegatorsCount": 194
+    },
+    {
+      "rank": 64,
+      "address": "0xF78cD306b23031dE9E739A5BcDE61764e82AD5eF",
+      "ens": "ronan.eth",
+      "name": "ronan.eth",
+      "votingPower": 2721,
+      "share": 0.00016684629590217972,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 65,
+      "address": "0xB08F0ca73E8A59a1b7970e22B8ed2F9142c3fA53",
+      "ens": "gideonro.eth",
+      "name": "gideonro.eth",
+      "votingPower": 2715.7677276717072,
+      "share": 0.00016652546339312896,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 66,
+      "address": "0xC7DA86dD7B5FEf769E549bF71f7B6fb4B9Af76B7",
+      "ens": "",
+      "name": "",
+      "votingPower": 2684.1446999990003,
+      "share": 0.00016458640237423765,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 67,
+      "address": "0x5A1d1fac4B19162408A795BF385A95CD4692C2c9",
+      "ens": "",
+      "name": "",
+      "votingPower": 2630.48,
+      "share": 0.00016129578994662468,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 68,
+      "address": "0xaf5bB2151Fd61a69A0F1F56ee6A2eAE2b48e47CB",
+      "ens": "",
+      "name": "Ash",
+      "votingPower": 2578,
+      "share": 0.00015807782096134484,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 69,
+      "address": "0x59DDA36bD196Ec849838CE2163E6821f946b37Dc",
+      "ens": "montymerlin.eth",
+      "name": "MontyMerlin.eth",
+      "votingPower": 2464.402006231386,
+      "share": 0.0001511122184320497,
+      "delegatorsCount": 4
+    },
+    {
+      "rank": 70,
+      "address": "0x0AbD5b7B6DE3ceA8702dAB2827D31CDA46c6e750",
+      "ens": "",
+      "name": "",
+      "votingPower": 2412.99,
+      "share": 0.00014795973669570034,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 71,
+      "address": "0x10D6d2e343281D388291A3e02f3293AaEdA67178",
+      "ens": "",
+      "name": "Shreyas",
+      "votingPower": 2390.0325393255202,
+      "share": 0.00014655203097101938,
+      "delegatorsCount": 162
+    },
+    {
+      "rank": 72,
+      "address": "0xf07A2439296e07Bc4320AF924E655a01fb69D89C",
+      "ens": "adamscochran.eth",
+      "name": "Adam Cochran (adamscochran.eth)",
+      "votingPower": 2325.058164282693,
+      "share": 0.00014256793181465966,
+      "delegatorsCount": 94
+    },
+    {
+      "rank": 73,
+      "address": "0x88cCA876eEBB2A541ED87584F189319c3441Aca6",
+      "ens": "",
+      "name": "Charles St.Louis \ud83e\udddd\u200d\u2642\ufe0f",
+      "votingPower": 2313.4331706656926,
+      "share": 0.00014185511037956855,
+      "delegatorsCount": 126
+    },
+    {
+      "rank": 74,
+      "address": "0x5a919ed0E22e6902ACcaaa27b4FDF0aCd92BA210",
+      "ens": "",
+      "name": "",
+      "votingPower": 2285.606499999,
+      "share": 0.00014014883440454924,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 75,
+      "address": "0x826f510031789Fc36E923A15465996c3b43c59D3",
+      "ens": "",
+      "name": "",
+      "votingPower": 2280.55,
+      "share": 0.0001398387799043425,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 76,
+      "address": "0xB7562F12E41C762CeCDA99d62Bd6EAC7b0C3B4c1",
+      "ens": "krisj.eth",
+      "name": "krisj.eth",
+      "votingPower": 2200.3,
+      "share": 0.00013491800987635653,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 77,
+      "address": "0x934B510D4C9103E6a87AEf13b816fb080286D649",
+      "ens": "sujiyan.eth",
+      "name": "Suji Yan ",
+      "votingPower": 2153.2506157137464,
+      "share": 0.00013203303542114165,
+      "delegatorsCount": 57
+    },
+    {
+      "rank": 78,
+      "address": "0xf93F0b770784602fC3079eb1D2fB1Ff488Bb02B0",
+      "ens": "viriya.eth",
+      "name": "viriya.eth",
+      "votingPower": 2080.2430078424113,
+      "share": 0.00012755635444135072,
+      "delegatorsCount": 60
+    },
+    {
+      "rank": 79,
+      "address": "0xB53b0255895c4F9E3a185E484e5B674bCCfbc076",
+      "ens": "peth.eth",
+      "name": "peth.eth",
+      "votingPower": 2079.858362421682,
+      "share": 0.00012753276875091178,
+      "delegatorsCount": 69
+    },
+    {
+      "rank": 80,
+      "address": "0x4Cb2ccbF80ddF2C12f8199b75c849CfA658BA9B5",
+      "ens": "",
+      "name": "",
+      "votingPower": 2017.8899999999999,
+      "share": 0.0001237329922962328,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 81,
+      "address": "0x809FA673fe2ab515FaA168259cB14E2BeDeBF68e",
+      "ens": "avsa.eth",
+      "name": "avsa.eth",
+      "votingPower": 2016.5053185293746,
+      "share": 0.0001236480863887068,
+      "delegatorsCount": 21
+    },
+    {
+      "rank": 82,
+      "address": "0x16d7034610dB82FD30FFc9667F4B4f55e2b8541f",
+      "ens": "",
+      "name": "",
+      "votingPower": 2003.1039876660936,
+      "share": 0.00012282634349466124,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 83,
+      "address": "0xDC546f477f273bCF327297bf4ADCB671b5f20BE1",
+      "ens": "",
+      "name": "",
+      "votingPower": 2002.0731707317073,
+      "share": 0.0001227631358550965,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 84,
+      "address": "0xCd5a5dA4CF8e5eF59b0F25f288ce49b7BA41A62C",
+      "ens": "",
+      "name": "",
+      "votingPower": 1875.8989501392841,
+      "share": 0.0001150263841666767,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 85,
+      "address": "0x0402c3407dcBD476C3d2Bbd80d1b375144bAF4a2",
+      "ens": "",
+      "name": "",
+      "votingPower": 1802.7996,
+      "share": 0.00011054407773389609,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 86,
+      "address": "0x67DBE3fb2B76E564eBdf860b5011a283E9Ae6698",
+      "ens": "ebransom.eth",
+      "name": "ebransom.eth",
+      "votingPower": 1651.497089788992,
+      "share": 0.00010126650941731821,
+      "delegatorsCount": 2
+    },
+    {
+      "rank": 87,
+      "address": "0x7859821024E633C5dC8a4FcF86fC52e7720Ce525",
+      "ens": "",
+      "name": "",
+      "votingPower": 1618.857899999,
+      "share": 9.92651393630336e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 88,
+      "address": "0x521aacB43d89E1b8FFD64d9eF76B0a1074dEdaF8",
+      "ens": "bobjiang.eth",
+      "name": "bobjiang.eth",
+      "votingPower": 1618.8194067089805,
+      "share": 9.926277903122293e-05,
+      "delegatorsCount": 24
+    },
+    {
+      "rank": 89,
+      "address": "0xcf88FA6eE6D111b04bE9b06ef6fAD6bD6691B88c",
+      "ens": "jordanlyall.eth",
+      "name": "Jordan Lyall",
+      "votingPower": 1616.140567477553,
+      "share": 9.909851794960547e-05,
+      "delegatorsCount": 163
+    },
+    {
+      "rank": 90,
+      "address": "0xcfBB0C8A2c292B7C45cBAde5ac6a25D2580DCB94",
+      "ens": "",
+      "name": "",
+      "votingPower": 1521,
+      "share": 9.326468800706188e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 91,
+      "address": "0x231F77F0c4D7a9F2E20767c7B76ae745A6c547f9",
+      "ens": "",
+      "name": "",
+      "votingPower": 1500,
+      "share": 9.197700986889732e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 92,
+      "address": "0xb864aBf9fC4d89FF8fa4b3A97735168430F12750",
+      "ens": "annaalexa.eth",
+      "name": "annaalexa.eth",
+      "votingPower": 1399.6132399309997,
+      "share": 8.582149385451527e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 93,
+      "address": "0x36E5A96c8d01803d2C48756AA7bde1c01d7D9f8A",
+      "ens": "",
+      "name": "",
+      "votingPower": 1362.7934,
+      "share": 8.356377466737875e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 94,
+      "address": "0x1DdC6f690c6223585c592ae31760fb7fe9F08699",
+      "ens": "",
+      "name": "",
+      "votingPower": 1339.2149023729999,
+      "share": 8.211798819475717e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 95,
+      "address": "0x996D97AEF3fb39530b07efDB3C53517ef5901bCf",
+      "ens": "lendoo.eth",
+      "name": "lendoo.eth",
+      "votingPower": 1288.5788,
+      "share": 7.901308333630124e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 96,
+      "address": "0x8d138c01765483cB79d787ce5933F609CbFDabcF",
+      "ens": "adrianleb.eth",
+      "name": "adrianleb.eth",
+      "votingPower": 1267.0059850110001,
+      "share": 7.769028132487248e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 97,
+      "address": "0x4Bc519F0b7b348FaE780Afb2DD4aa76841bA8e9e",
+      "ens": "",
+      "name": "@muskan_kalra24",
+      "votingPower": 1255.1580144217542,
+      "share": 7.696378738633016e-05,
+      "delegatorsCount": 96
+    },
+    {
+      "rank": 98,
+      "address": "0x48A9789428F2067338D02B1EF3612DF64F05FeB7",
+      "ens": "liuchaojin.eth",
+      "name": "liuchaojin211",
+      "votingPower": 1221.2428119304,
+      "share": 7.48841747768282e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 99,
+      "address": "0x32c6B5db05b98907A29BAeb7d09C79c95498B17a",
+      "ens": "",
+      "name": "",
+      "votingPower": 1214.8229000000001,
+      "share": 7.449051857484164e-05,
+      "delegatorsCount": 1
+    },
+    {
+      "rank": 100,
+      "address": "0xc3fAb4228Ce462653DbF0BB3e4f3FDd81697FEc4",
+      "ens": "",
+      "name": "Daniel Hwang (\ud83c\udf33,\ud83c\udf33)",
+      "votingPower": 1206.8587668982766,
+      "share": 7.400217380891202e-05,
+      "delegatorsCount": 216
+    }
+  ],
+  "lorenz": [
+    {
+      "x": 0,
+      "y": 0
+    },
+    {
+      "x": 0.00625,
+      "y": 2.9090580658283392e-05
+    },
+    {
+      "x": 0.0125,
+      "y": 5.883355932247416e-05
+    },
+    {
+      "x": 0.01875,
+      "y": 8.858718020053582e-05
+    },
+    {
+      "x": 0.025,
+      "y": 0.00011938138356281355
+    },
+    {
+      "x": 0.03125,
+      "y": 0.0001504070256091241
+    },
+    {
+      "x": 0.0375,
+      "y": 0.00018209260270130528
+    },
+    {
+      "x": 0.04375,
+      "y": 0.0002142060016571293
+    },
+    {
+      "x": 0.05,
+      "y": 0.000247217424368213
+    },
+    {
+      "x": 0.05625,
+      "y": 0.0002806498723191722
+    },
+    {
+      "x": 0.0625,
+      "y": 0.00031423605621148357
+    },
+    {
+      "x": 0.06875,
+      "y": 0.00034881928315437516
+    },
+    {
+      "x": 0.075,
+      "y": 0.0003836715367192713
+    },
+    {
+      "x": 0.08125,
+      "y": 0.00041961533175318794
+    },
+    {
+      "x": 0.0875,
+      "y": 0.0004557981600332249
+    },
+    {
+      "x": 0.09375,
+      "y": 0.0004920150274392019
+    },
+    {
+      "x": 0.1,
+      "y": 0.0005284743769021965
+    },
+    {
+      "x": 0.10625,
+      "y": 0.0005669226801492009
+    },
+    {
+      "x": 0.1125,
+      "y": 0.0006055097605812429
+    },
+    {
+      "x": 0.11875,
+      "y": 0.0006441757543922422
+    },
+    {
+      "x": 0.125,
+      "y": 0.0006830224713869953
+    },
+    {
+      "x": 0.13125,
+      "y": 0.0007219846747152785
+    },
+    {
+      "x": 0.1375,
+      "y": 0.0007617380642825153
+    },
+    {
+      "x": 0.14375,
+      "y": 0.0008015953817390419
+    },
+    {
+      "x": 0.15,
+      "y": 0.0008417820504725684
+    },
+    {
+      "x": 0.15625,
+      "y": 0.0008820919439333733
+    },
+    {
+      "x": 0.1625,
+      "y": 0.0009224124330844584
+    },
+    {
+      "x": 0.16875,
+      "y": 0.0009633852783756784
+    },
+    {
+      "x": 0.175,
+      "y": 0.0010060964768898192
+    },
+    {
+      "x": 0.18125,
+      "y": 0.0010492073829616473
+    },
+    {
+      "x": 0.1875,
+      "y": 0.0010929271829706085
+    },
+    {
+      "x": 0.19375,
+      "y": 0.0011371243252653873
+    },
+    {
+      "x": 0.2,
+      "y": 0.0011840083399025534
+    },
+    {
+      "x": 0.20625,
+      "y": 0.0012315978809313277
+    },
+    {
+      "x": 0.2125,
+      "y": 0.0012803900369785322
+    },
+    {
+      "x": 0.21875,
+      "y": 0.0013292121880284237
+    },
+    {
+      "x": 0.225,
+      "y": 0.0013792643102088988
+    },
+    {
+      "x": 0.23125,
+      "y": 0.001429959655348524
+    },
+    {
+      "x": 0.2375,
+      "y": 0.0014807811544381444
+    },
+    {
+      "x": 0.24375,
+      "y": 0.001533055402677729
+    },
+    {
+      "x": 0.25,
+      "y": 0.001585598976283736
+    },
+    {
+      "x": 0.25625,
+      "y": 0.0016408281048096798
+    },
+    {
+      "x": 0.2625,
+      "y": 0.0016966187083941946
+    },
+    {
+      "x": 0.26875,
+      "y": 0.0017529731081860772
+    },
+    {
+      "x": 0.275,
+      "y": 0.001811111230393826
+    },
+    {
+      "x": 0.28125,
+      "y": 0.0018709994236956757
+    },
+    {
+      "x": 0.2875,
+      "y": 0.0019318882042288856
+    },
+    {
+      "x": 0.29375,
+      "y": 0.0019932062108081504
+    },
+    {
+      "x": 0.3,
+      "y": 0.002054535702249986
+    },
+    {
+      "x": 0.30625,
+      "y": 0.0021158769150859064
+    },
+    {
+      "x": 0.3125,
+      "y": 0.0021789203101324176
+    },
+    {
+      "x": 0.31875,
+      "y": 0.0022430984067864056
+    },
+    {
+      "x": 0.325,
+      "y": 0.002307542724194716
+    },
+    {
+      "x": 0.33125,
+      "y": 0.002372857716216529
+    },
+    {
+      "x": 0.3375,
+      "y": 0.0024385144120245643
+    },
+    {
+      "x": 0.34375,
+      "y": 0.0025043476268394654
+    },
+    {
+      "x": 0.35,
+      "y": 0.002570370387931423
+    },
+    {
+      "x": 0.35625,
+      "y": 0.002638439018183949
+    },
+    {
+      "x": 0.3625,
+      "y": 0.002707910872580184
+    },
+    {
+      "x": 0.36875,
+      "y": 0.0027785684983582287
+    },
+    {
+      "x": 0.375,
+      "y": 0.0028496196163624314
+    },
+    {
+      "x": 0.38125,
+      "y": 0.0029236217901713437
+    },
+    {
+      "x": 0.3875,
+      "y": 0.002998112308746185
+    },
+    {
+      "x": 0.39375,
+      "y": 0.0030729964835230134
+    },
+    {
+      "x": 0.4,
+      "y": 0.003149960270909344
+    },
+    {
+      "x": 0.40625,
+      "y": 0.003227650552234216
+    },
+    {
+      "x": 0.4125,
+      "y": 0.0033066636355705173
+    },
+    {
+      "x": 0.41875,
+      "y": 0.0033887816237652747
+    },
+    {
+      "x": 0.425,
+      "y": 0.0034723453984326536
+    },
+    {
+      "x": 0.43125,
+      "y": 0.003558166892287169
+    },
+    {
+      "x": 0.4375,
+      "y": 0.0036501439021560662
+    },
+    {
+      "x": 0.44375,
+      "y": 0.003743408590163128
+    },
+    {
+      "x": 0.45,
+      "y": 0.0038425071081127334
+    },
+    {
+      "x": 0.45625,
+      "y": 0.003941769887143957
+    },
+    {
+      "x": 0.4625,
+      "y": 0.00404103502650699
+    },
+    {
+      "x": 0.46875,
+      "y": 0.0041423015359243085
+    },
+    {
+      "x": 0.475,
+      "y": 0.004252845613658204
+    },
+    {
+      "x": 0.48125,
+      "y": 0.004367871997824881
+    },
+    {
+      "x": 0.4875,
+      "y": 0.004490635133679977
+    },
+    {
+      "x": 0.49375,
+      "y": 0.0046134614771746385
+    },
+    {
+      "x": 0.5,
+      "y": 0.004737109563563345
+    },
+    {
+      "x": 0.50625,
+      "y": 0.004860842555859578
+    },
+    {
+      "x": 0.5125,
+      "y": 0.00498837532461049
+    },
+    {
+      "x": 0.51875,
+      "y": 0.005115931679051841
+    },
+    {
+      "x": 0.525,
+      "y": 0.005247964714472982
+    },
+    {
+      "x": 0.53125,
+      "y": 0.005382882724349339
+    },
+    {
+      "x": 0.5375,
+      "y": 0.005522721504253681
+    },
+    {
+      "x": 0.54375,
+      "y": 0.00566287033865823
+    },
+    {
+      "x": 0.55,
+      "y": 0.005804725449037799
+    },
+    {
+      "x": 0.55625,
+      "y": 0.005947293380852458
+    },
+    {
+      "x": 0.5625,
+      "y": 0.006093845411823478
+    },
+    {
+      "x": 0.56875,
+      "y": 0.006241805148519178
+    },
+    {
+      "x": 0.575,
+      "y": 0.006392917366951228
+    },
+    {
+      "x": 0.58125,
+      "y": 0.006550995187912573
+    },
+    {
+      "x": 0.5875,
+      "y": 0.006712290977859197
+    },
+    {
+      "x": 0.59375,
+      "y": 0.006876877380233435
+    },
+    {
+      "x": 0.6,
+      "y": 0.007043402843626563
+    },
+    {
+      "x": 0.60625,
+      "y": 0.007210249139528743
+    },
+    {
+      "x": 0.6125,
+      "y": 0.007379765906427025
+    },
+    {
+      "x": 0.61875,
+      "y": 0.0075507635941127835
+    },
+    {
+      "x": 0.625,
+      "y": 0.007723467488112105
+    },
+    {
+      "x": 0.63125,
+      "y": 0.007906347203392174
+    },
+    {
+      "x": 0.6375,
+      "y": 0.00809593826105641
+    },
+    {
+      "x": 0.64375,
+      "y": 0.0083003111769851
+    },
+    {
+      "x": 0.65,
+      "y": 0.00850637703961838
+    },
+    {
+      "x": 0.65625,
+      "y": 0.008716078159201513
+    },
+    {
+      "x": 0.6625,
+      "y": 0.008937922882477979
+    },
+    {
+      "x": 0.66875,
+      "y": 0.009166774559813178
+    },
+    {
+      "x": 0.675,
+      "y": 0.009402428813875612
+    },
+    {
+      "x": 0.68125,
+      "y": 0.0096474654281012
+    },
+    {
+      "x": 0.6875,
+      "y": 0.00989316787602584
+    },
+    {
+      "x": 0.69375,
+      "y": 0.010145015216142413
+    },
+    {
+      "x": 0.7,
+      "y": 0.010397489455382398
+    },
+    {
+      "x": 0.70625,
+      "y": 0.010662329688657874
+    },
+    {
+      "x": 0.7125,
+      "y": 0.010928040846108
+    },
+    {
+      "x": 0.71875,
+      "y": 0.011203470517739563
+    },
+    {
+      "x": 0.725,
+      "y": 0.01148252573069519
+    },
+    {
+      "x": 0.73125,
+      "y": 0.011767286925268003
+    },
+    {
+      "x": 0.7375,
+      "y": 0.012054395492836196
+    },
+    {
+      "x": 0.74375,
+      "y": 0.01236352253047787
+    },
+    {
+      "x": 0.75,
+      "y": 0.012675109326445458
+    },
+    {
+      "x": 0.75625,
+      "y": 0.012991253261690382
+    },
+    {
+      "x": 0.7625,
+      "y": 0.013324965713118532
+    },
+    {
+      "x": 0.76875,
+      "y": 0.013701873151147674
+    },
+    {
+      "x": 0.775,
+      "y": 0.014083245866202819
+    },
+    {
+      "x": 0.78125,
+      "y": 0.01446900535788357
+    },
+    {
+      "x": 0.7875,
+      "y": 0.014860155576161568
+    },
+    {
+      "x": 0.79375,
+      "y": 0.015273078821774642
+    },
+    {
+      "x": 0.8,
+      "y": 0.015729602595060024
+    },
+    {
+      "x": 0.80625,
+      "y": 0.016207204869225462
+    },
+    {
+      "x": 0.8125,
+      "y": 0.016691927574268968
+    },
+    {
+      "x": 0.81875,
+      "y": 0.01722685293884813
+    },
+    {
+      "x": 0.825,
+      "y": 0.01777583079922682
+    },
+    {
+      "x": 0.83125,
+      "y": 0.018332479227458565
+    },
+    {
+      "x": 0.8375,
+      "y": 0.018949052029820355
+    },
+    {
+      "x": 0.84375,
+      "y": 0.01957672398187614
+    },
+    {
+      "x": 0.85,
+      "y": 0.020293032140640037
+    },
+    {
+      "x": 0.85625,
+      "y": 0.021033761984153226
+    },
+    {
+      "x": 0.8625,
+      "y": 0.021792200918739676
+    },
+    {
+      "x": 0.86875,
+      "y": 0.02255985480782086
+    },
+    {
+      "x": 0.875,
+      "y": 0.02367587637034012
+    },
+    {
+      "x": 0.88125,
+      "y": 0.02482771812344349
+    },
+    {
+      "x": 0.8875,
+      "y": 0.02623714279824077
+    },
+    {
+      "x": 0.89375,
+      "y": 0.02768285227140565
+    },
+    {
+      "x": 0.9,
+      "y": 0.029215803049067336
+    },
+    {
+      "x": 0.90625,
+      "y": 0.03113892433668705
+    },
+    {
+      "x": 0.9125,
+      "y": 0.033481933623127985
+    },
+    {
+      "x": 0.91875,
+      "y": 0.03600659931229378
+    },
+    {
+      "x": 0.925,
+      "y": 0.038540128571335826
+    },
+    {
+      "x": 0.93125,
+      "y": 0.04108581431014098
+    },
+    {
+      "x": 0.9375,
+      "y": 0.04389984629265933
+    },
+    {
+      "x": 0.94375,
+      "y": 0.04683681658196944
+    },
+    {
+      "x": 0.95,
+      "y": 0.05069198697914056
+    },
+    {
+      "x": 0.95625,
+      "y": 0.0562106075712744
+    },
+    {
+      "x": 0.9625,
+      "y": 0.06175980329178526
+    },
+    {
+      "x": 0.96875,
+      "y": 0.06791501792177705
+    },
+    {
+      "x": 0.975,
+      "y": 0.07725039712180358
+    },
+    {
+      "x": 0.98125,
+      "y": 0.10696223116785912
+    },
+    {
+      "x": 0.9875,
+      "y": 0.13762123445749155
+    },
+    {
+      "x": 0.99375,
+      "y": 0.23300382119169674
+    },
+    {
+      "x": 1,
+      "y": 1
+    }
+  ],
+  "vpHistogram": [
+    {
+      "bin": 5,
+      "label": "2.5\u20133.0",
+      "count": 46
+    },
+    {
+      "bin": 6,
+      "label": "3.0\u20133.5",
+      "count": 56
+    },
+    {
+      "bin": 7,
+      "label": "3.5\u20134.0",
+      "count": 31
+    },
+    {
+      "bin": 8,
+      "label": "4.0\u20134.5",
+      "count": 12
+    },
+    {
+      "bin": 9,
+      "label": "4.5\u20135.0",
+      "count": 9
+    },
+    {
+      "bin": 10,
+      "label": "5.0\u20135.5",
+      "count": 2
+    },
+    {
+      "bin": 11,
+      "label": "5.5\u20136.0",
+      "count": 2
+    },
+    {
+      "bin": 12,
+      "label": "6.0\u20136.5",
+      "count": 1
+    },
+    {
+      "bin": 14,
+      "label": "7.0\u20137.5",
+      "count": 1
+    }
+  ],
+  "onchainGovernance": {
+    "name": "GTC Governor Bravo",
+    "proposalCount": 20,
+    "quorumVotes": 2500000,
+    "proposalThreshold": 150000,
+    "votingPeriodBlocks": 40320,
+    "votingDelayBlocks": 13140,
+    "proposals": [
+      {
+        "id": "19986480681679557869839903882420582374457431460979012393340892922945933213099",
+        "tallyId": "2831621037513246636",
+        "title": "[SECURITY] Emergency Governance: Delegate GTC to Veto Multisig",
+        "descriptionPreview": "# [SECURITY] Emergency Governance: Delegate GTC to Veto Multisig\nThis is an extension to the \"\\[SECURITY] Emergency Governance: Temporary Transition to Multisig Execution\" proposal that delegates the 12,508,498.0957571 GTC in the Gitcoin DAO treasury to 0x5743e35477363241300fcedc",
+        "proposer": "0x00De4B13153673BCAE2616b67bf822500d325Fc3",
+        "proposerEns": "kev.eth",
+        "state": "Executed",
+        "createdAt": "2026-04-09T21:25:32.157564Z",
+        "quorum": 2500000.0,
+        "forVotes": 4060233.475977609,
+        "againstVotes": 0.8117189314178839,
+        "abstainVotes": 0.0,
+        "totalVotes": 4060234.2876965404,
+        "votersFor": 16,
+        "votersAgainst": 2,
+        "votersAbstain": 0
+      },
+      {
+        "id": "57072833898817791797073691509906632211867496916826813977377920660331579547554",
+        "tallyId": "2831617053335488261",
+        "title": "[SECURITY] Emergency Governance: Temporary Transition to Multisig Execution",
+        "descriptionPreview": "# [SECURITY] Emergency Governance: Temporary Transition to Multisig Execution\n## **TL;DR**\n\nGitcoin governance currently lacks an execution-layer veto or circuit breaker to prevent bad actors from executing governance attacks (https://arxiv.org/pdf/2406.15071). This creates a cre",
+        "proposer": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "proposerEns": "mathildadv.eth",
+        "state": "Executed",
+        "createdAt": "2026-04-09T21:17:37.205957Z",
+        "quorum": 2500000.0,
+        "forVotes": 4544311.873778406,
+        "againstVotes": 0.0,
+        "abstainVotes": 0.0,
+        "totalVotes": 4544311.873778406,
+        "votersFor": 13,
+        "votersAgainst": 0,
+        "votersAbstain": 0
+      },
+      {
+        "id": "75248911656791723576167495774443299887830237055968591617626948134415739935084",
+        "tallyId": "2814756588269602017",
+        "title": "REVOTE: Gitcoin DAO 2026 Budget Request [First Tranche]",
+        "descriptionPreview": "# REVOTE: Gitcoin DAO 2026 Budget Request [First Tranche]\n## TL;DR\n\nThis seeks funding for DAO operations through January 2026 - December 2026, funds released in two tranches. The DAO 2026 Strategy presents an integrated approach to governance, builder engagement, and ecosystem g",
+        "proposer": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "proposerEns": "mathildadv.eth",
+        "state": "Executed",
+        "createdAt": "2026-03-17T14:58:53.144455Z",
+        "quorum": 2500000.0,
+        "forVotes": 3168028.1803705287,
+        "againstVotes": 0.2361127526903449,
+        "abstainVotes": 1000835.1935217973,
+        "totalVotes": 4168863.6100050784,
+        "votersFor": 18,
+        "votersAgainst": 1,
+        "votersAbstain": 2
+      },
+      {
+        "id": "71297445673138093821499487099523311360281460799525284241135685496285495937867",
+        "tallyId": "2798837891353020055",
+        "title": "Gitcoin DAO 2026 Budget Request [First Tranche]",
+        "descriptionPreview": "# Gitcoin DAO 2026 Budget Request [First Tranche]\n## TL;DR\n\nThis seeks funding for DAO operations through January 2026 - December 2026, funds released in two tranches. The DAO 2026 Strategy presents an integrated approach to governance, builder engagement, and ecosystem growth, f",
+        "proposer": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "proposerEns": "mathildadv.eth",
+        "state": "Defeated",
+        "createdAt": "2026-02-23T15:51:16.592888Z",
+        "quorum": 2500000.0,
+        "forVotes": 18843.825126875716,
+        "againstVotes": 0.0,
+        "abstainVotes": 0.0,
+        "totalVotes": 18843.825126875716,
+        "votersFor": 79,
+        "votersAgainst": 0,
+        "votersAbstain": 0
+      },
+      {
+        "id": "12758623331512311890772944556456769209556902913300144815701629851416592697589",
+        "tallyId": "2601653367725884606",
+        "title": "REPOST [SGTM 004]: Generating Yield on DAO Treasury Assets to Support Runway",
+        "descriptionPreview": "# REPOST [SGTM 004]: Generating Yield on DAO Treasury Assets to Support Runway\nThis is an onchain follow-up vote to the same proposal that passed on Snapshot on April 15th. The passing of this proposal will move the funds detailed below to the\u00a0[Avatar safe](https://app.safe.globa",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2025-05-27T14:20:49.621762Z",
+        "quorum": 2500000.0,
+        "forVotes": 2863706.706350448,
+        "againstVotes": 8.473769915973229,
+        "abstainVotes": 1.276432808378676,
+        "totalVotes": 2863716.4565531723,
+        "votersFor": 65,
+        "votersAgainst": 4,
+        "votersAbstain": 1
+      },
+      {
+        "id": "42131400951029541481048442097364639224689659286943854755170681178246078774463",
+        "tallyId": "2581972390472844844",
+        "title": "[SGTM 004]: Generating Yield on DAO Treasury Assets to Support Runway",
+        "descriptionPreview": "# [SGTM 004]: Generating Yield on DAO Treasury Assets to Support Runway\nThis is an onchain follow-up vote to the same proposal that passed on Snapshot on April 15th. The passing of this proposal will move the funds detailed below to the\u00a0[Avatar safe](https://app.safe.global/home?",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Defeated",
+        "createdAt": "2025-04-30T10:38:14.306292Z",
+        "quorum": 2500000.0,
+        "forVotes": 1830162.1810842743,
+        "againstVotes": 400457.3693377897,
+        "abstainVotes": 2.896494355761047,
+        "totalVotes": 2230622.44691642,
+        "votersFor": 147,
+        "votersAgainst": 9,
+        "votersAbstain": 1
+      },
+      {
+        "id": "17479554285430824235935339015686957231675135320692618616781702573982249581366",
+        "tallyId": "2576892319991071946",
+        "title": "[REPOST] Revoke Wonderland Vesting Contract - Contract Termination",
+        "descriptionPreview": "# [REPOST] Revoke Wonderland Vesting Contract - Contract Termination\nThis proposal will execute the revoke function on Wonderland's vesting contract, following the successful completion of their work with Grants Lab as outlined in the original July 2023 proposal.\n\nAs agreed with ",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2025-04-23T10:25:02.712588Z",
+        "quorum": 2500000.0,
+        "forVotes": 2815174.400769086,
+        "againstVotes": 5.69130219013397,
+        "abstainVotes": 2.4156509656999963,
+        "totalVotes": 2815182.507722242,
+        "votersFor": 106,
+        "votersAgainst": 7,
+        "votersAbstain": 2
+      },
+      {
+        "id": "108988307804034315231415885432719400721031490539119630109782735447784485014013",
+        "tallyId": "2566207672026138429",
+        "title": "Revoke Wonderland Vesting Contract - Contract Termination ",
+        "descriptionPreview": "# Revoke Wonderland Vesting Contract - Contract Termination \nThis proposal will execute the revoke function on Wonderland's vesting contract, following the successful completion of their work with Grants Lab as outlined in the original July 2023 proposal.\n\nAs agreed with Wonderla",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Defeated",
+        "createdAt": "2025-04-08T16:36:33.419946Z",
+        "quorum": 2500000.0,
+        "forVotes": 1274916.5608152808,
+        "againstVotes": 31.239427034689566,
+        "abstainVotes": 16.582139490200348,
+        "totalVotes": 1274964.3823818057,
+        "votersFor": 175,
+        "votersAgainst": 17,
+        "votersAbstain": 8
+      },
+      {
+        "id": "5439536612829093937912655931103371047608013142850324150158885844951489661832",
+        "tallyId": "2529941105525392703",
+        "title": "[PROPOSAL] 2025 Budget - Allo",
+        "descriptionPreview": "# [PROPOSAL] 2025 Budget - Allo\nAllo Budget request for 2025: Building The Capital Allocation Network For the Tokenized Internet\n\nWe are excited to present our final operational budget to the DAO for the graduation of Allo to Allo.Capital. For some time, the team has recognized t",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2025-02-17T15:41:21.792905Z",
+        "quorum": 2500000.0,
+        "forVotes": 2758226.498925897,
+        "againstVotes": 3406.6797540063153,
+        "abstainVotes": 392234.28208750096,
+        "totalVotes": 3153867.460767404,
+        "votersFor": 93,
+        "votersAgainst": 14,
+        "votersAbstain": 7
+      },
+      {
+        "id": "70204214476566668588049759730209278466766678861982994969617905470003719879290",
+        "tallyId": "2527317625977964355",
+        "title": "Budget Request - Schelling Point & Eth Denver 2025",
+        "descriptionPreview": "# Budget Request - Schelling Point & Eth Denver 2025\n**TL:DR**\u00a0We are requesting $78,994 (USD equivalent in GTC) to fund activations for the 2025 Gitcoin event activations at Eth Denver (including our Schelling Point event) from the Gitcoin Treasury in line with our 2025 Grants L",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2025-02-14T00:48:58.660379Z",
+        "quorum": 2500000.0,
+        "forVotes": 2479421.6509563294,
+        "againstVotes": 13.293399625628842,
+        "abstainVotes": 632525.1024668635,
+        "totalVotes": 3111960.0468228185,
+        "votersFor": 90,
+        "votersAgainst": 7,
+        "votersAbstain": 6
+      },
+      {
+        "id": "99781329938516977803905945884624547717533999902877166445172956670083516209802",
+        "tallyId": "2519038709177779448",
+        "title": "[CANCELED] [PROPOSAL] 2025 Grants Lab Budget",
+        "descriptionPreview": "# [CANCELED] [PROPOSAL] 2025 Grants Lab Budget\nThis vote serves to ratify [this Snapshot vote](https://snapshot.org/#/s:gitcoindao.eth/proposal/0xd2b0853e328b3bdef16a526b2291a6e8a6897826dfca2d5d7a220f90ae1789f5 \"Snapshot vote\") which approved the movement of $5,232,330 USD (8,759",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Defeated",
+        "createdAt": "2025-02-02T14:40:14.869907Z",
+        "quorum": 2500000.0,
+        "forVotes": 435175.94579537935,
+        "againstVotes": 0.0,
+        "abstainVotes": 0.0,
+        "totalVotes": 435175.94579537935,
+        "votersFor": 14,
+        "votersAgainst": 0,
+        "votersAbstain": 0
+      },
+      {
+        "id": "37543118321228846482336180809004756478759109679597069362725104754948284078483",
+        "tallyId": "2512609856402229158",
+        "title": "2025 Grants Lab Budget",
+        "descriptionPreview": "# 2025 Grants Lab Budget\nThis vote serves to ratify\u00a0[this Snapshot vote](https://snapshot.org/#/s:gitcoindao.eth/proposal/0xd2b0853e328b3bdef16a526b2291a6e8a6897826dfca2d5d7a220f90ae1789f5 \"Snapshot vote\")\u00a0which approved the movement of $5,232,330 USD (8,759,999.20 GTC) from the ",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2025-01-24T17:47:15.898607Z",
+        "quorum": 2500000.0,
+        "forVotes": 2457048.821555655,
+        "againstVotes": 0.20333111,
+        "abstainVotes": 709798.3364941352,
+        "totalVotes": 3166847.3613809003,
+        "votersFor": 42,
+        "votersAgainst": 2,
+        "votersAbstain": 4
+      },
+      {
+        "id": "93745553728467465103448447080957310626925806763223435733968877851788651212199",
+        "tallyId": "2512376087212722146",
+        "title": "2025 Gitcoin DAO Budget",
+        "descriptionPreview": "# 2025 Gitcoin DAO Budget\nThis vote serves to ratify\u00a0[this Snapshot vote](https://snapshot.org/#/s:gitcoindao.eth/proposal/0x7d5fe022bd18a1caac9528c56d4a2a47b5d6692e71168c166def489bf19b5ab6 \"Snapshot vote\")\u00a0which approved the movement of $808,098 from the Gitcoin Treasury to the ",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2025-01-24T10:02:48.439932Z",
+        "quorum": 2500000.0,
+        "forVotes": 3087778.928286595,
+        "againstVotes": 0.10222,
+        "abstainVotes": 150826.76114191828,
+        "totalVotes": 3238605.7916485127,
+        "votersFor": 39,
+        "votersAgainst": 1,
+        "votersAbstain": 1
+      },
+      {
+        "id": "85527916772416366314719919764590803634435320774884863016693379798427611242578",
+        "tallyId": "2419075341038388993",
+        "title": "[RE-POST] Ratify Grants Lab Contributor Token Grant Program",
+        "descriptionPreview": "# [RE-POST] Ratify Grants Lab Contributor Token Grant Program\nOriginal passed Snapshot did not reach Quorum and consectutive post had affected stewards voting to obstain, thereby skewing final outcome. \u00a0\n\n[https://www.tally.xyz/gov/gitcoin/proposal/5414412877830082065873081455960",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Defeated",
+        "createdAt": "2024-09-17T16:30:52.773386Z",
+        "quorum": 2500000.0,
+        "forVotes": 1619004.5615745555,
+        "againstVotes": 0.0,
+        "abstainVotes": 0.0,
+        "totalVotes": 1619004.5615745555,
+        "votersFor": 7,
+        "votersAgainst": 0,
+        "votersAbstain": 0
+      },
+      {
+        "id": "62382439297504838298015974215212628407648385954116030927167495075985058991059",
+        "tallyId": "2409659696249046704",
+        "title": "[RE-POST] Ratify Grants Lab Contributor Token Grant Program",
+        "descriptionPreview": "# [RE-POST] Ratify Grants Lab Contributor Token Grant Program\nOriginal passed Snapshot did not reach Quorum. [https://www.tally.xyz/gov/gitcoin/proposal/54144128778300820658730814559609702903444647997450480321517270276841697542587](https://www.tally.xyz/gov/gitcoin/proposal/54144",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2024-09-04T16:43:40.448728Z",
+        "quorum": 2500000.0,
+        "forVotes": 1353916.3121898782,
+        "againstVotes": 3360.7560210390725,
+        "abstainVotes": 1460540.7903485189,
+        "totalVotes": 2817817.858559436,
+        "votersFor": 36,
+        "votersAgainst": 2,
+        "votersAbstain": 3
+      },
+      {
+        "id": "54144128778300820658730814559609702903444647997450480321517270276841697542587",
+        "tallyId": "2403149989078370057",
+        "title": "Ratify Grants Lab Contributor Token Grant Program",
+        "descriptionPreview": "# Ratify Grants Lab Contributor Token Grant Program\nTL;DR: Propose that current contributors to Grants Lab be eligible for a 4-year token grant, subject to a linear vesting schedule and a 1-year cliff. Contributors who have been at Gitcoin for over a year and have not previously ",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Defeated",
+        "createdAt": "2024-08-26T17:10:02.881411Z",
+        "quorum": 2500000.0,
+        "forVotes": 1435735.3883836605,
+        "againstVotes": 3503.1127689648883,
+        "abstainVotes": 0.0,
+        "totalVotes": 1439238.5011526253,
+        "votersFor": 96,
+        "votersAgainst": 6,
+        "votersAbstain": 0
+      },
+      {
+        "id": "19700501249811598486122395863102115762682125709673078570382777409065351585893",
+        "tallyId": "2393910103813130141",
+        "title": "H2 Proposal [Budget] - Grants Labs",
+        "descriptionPreview": "# H2 Proposal [Budget] - Grants Labs\nThis vote serves to ratify\u00a0[this Snapshot vote](https://snapshot.org/#/gitcoindao.eth/proposal/0x2f3f2a1c531f8d6b7eb27409399f02d09ac329df77f18d991607c7ce05fb85c1)\u00a0which approved the movement of $2,646,608 from the Gitcoin Treasury to the Grant",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2024-08-13T23:12:02.722844Z",
+        "quorum": 2500000.0,
+        "forVotes": 2662601.6711172415,
+        "againstVotes": 3388.8637438703936,
+        "abstainVotes": 0.0,
+        "totalVotes": 2665990.534861112,
+        "votersFor": 50,
+        "votersAgainst": 12,
+        "votersAbstain": 0
+      },
+      {
+        "id": "91206216187624661213440609842845871701519838219118270345394850357083328797074",
+        "tallyId": "2393715804777481232",
+        "title": "Gitcoin (Grants Lab) x Wonderland Partnership 1.5M GTC over 4 years ",
+        "descriptionPreview": "# Gitcoin (Grants Lab) x Wonderland Partnership 1.5M GTC over 4 years \nWe\u2019re asking for 31.25k GTC /mo for a 4-year engagement (1.5M GTC total) with Wonderland to Build Allo Protocol.\n\nWonderland (defi.sucks) is a team of developers, researchers, and creators who love building in",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2024-08-13T16:46:00.47081Z",
+        "quorum": 2500000.0,
+        "forVotes": 2864119.834154938,
+        "againstVotes": 0.0,
+        "abstainVotes": 0.0,
+        "totalVotes": 2864119.834154938,
+        "votersFor": 9,
+        "votersAgainst": 0,
+        "votersAbstain": 0
+      },
+      {
+        "id": "73301988806764757505731238725343748523827974933588656351191054147357141903320",
+        "tallyId": "2370348550677595272",
+        "title": "S23 Budget & Spinout for Passport",
+        "descriptionPreview": "# S23 Budget & Spinout for Passport\n## To execute the ratified budget.\n\nThe S23 (and final) budget for Passport passed on Snapshot and this proposal is to ratify that decision on chain and fund the final budget request from Passport. The details of the proposal which passed are b",
+        "proposer": "0xc2E2B715d9e302947Ec7e312fd2384b5a1296099",
+        "proposerEns": "kbw.eth",
+        "state": "Executed",
+        "createdAt": "2024-07-12T10:59:26.712812Z",
+        "quorum": 2500000.0,
+        "forVotes": 4084782.840703948,
+        "againstVotes": 0.0,
+        "abstainVotes": 0.0,
+        "totalVotes": 4084782.840703948,
+        "votersFor": 29,
+        "votersAgainst": 0,
+        "votersAbstain": 0
+      },
+      {
+        "id": "60225368338297727261583532911424543542153518785240435016486916291626334186357",
+        "tallyId": "2360362150100206606",
+        "title": "SGTM 001: Converting $5M GTC to Stables ",
+        "descriptionPreview": "# SGTM 001: Converting $5M GTC to Stables \n**We are asking for $5M in GTC from the treasury to swap into stables and put back into the treasury to be prepared for the next bear market**.\n\nWe\u2019ll repeat this cycle with additional proposals once the cycle from this proposal has been",
+        "proposer": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "proposerEns": "deltajuliet.eth",
+        "state": "Executed",
+        "createdAt": "2024-06-28T16:18:14.994558Z",
+        "quorum": 2500000.0,
+        "forVotes": 2504496.9037138824,
+        "againstVotes": 29911.088671087542,
+        "abstainVotes": 0.0,
+        "totalVotes": 2534407.99238497,
+        "votersFor": 42,
+        "votersAgainst": 20,
+        "votersAbstain": 0
+      }
+    ]
+  },
+  "voterParticipation": [],
+  "snapshot": {
+    "space": {
+      "id": "gitcoindao.eth",
+      "name": "Gitcoin",
+      "about": "Fund, build and protect what matters.  From products to protocols, our tools empower community-led funding and trustworthy digital experiences.",
+      "network": "1",
+      "symbol": "GTC",
+      "followersCount": 150499,
+      "proposalsCount": 182
+    },
+    "proposals": [
+      {
+        "id": "0x90a0c4d9eed35fd7175a0f1423eace9cf3bef44346a8d4eb563117695d0bf73d",
+        "title": "Akita \u00d7 Gitcoin: A Positive Path Forward",
+        "state": "closed",
+        "scores_total": 4087049.721497299,
+        "scores": [
+          3085786.726157064,
+          10,
+          1001252.995340235
+        ],
+        "votes": 457,
+        "start": 1778263786,
+        "end": 1778868586,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xac01be13caef126ab758c160f91a7a0c616f94d15a3890872d485966d3869e56",
+        "title": "[PROPOSAL] Withdrawing remaining fees from PGN back to the Gitcoin Foundation Q2 2026 (Original Q4 2025)",
+        "state": "closed",
+        "scores_total": 4164635.297921611,
+        "scores": [
+          4155291.5614259914,
+          10,
+          9333.736495620064
+        ],
+        "votes": 479,
+        "start": 1776380369,
+        "end": 1776985169,
+        "author": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x5da28c1533e828590e427366aec43cc1fac3a18525a285b0f85d6dac93111709",
+        "title": "[Proposal] Gitcoin \u00d7 Octant Yield-Powered Matching Pilot",
+        "state": "closed",
+        "scores_total": 4182033.8119176878,
+        "scores": [
+          4181915.056479235,
+          10.903992155655729,
+          107.8514462972585
+        ],
+        "votes": 481,
+        "start": 1771561791,
+        "end": 1772166591,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x7b139f41e2ebce0bf0e833f85943e7c6642a640dba6facc526524878ddf270a1",
+        "title": "Gitcoin DAO 2026 Budget Request",
+        "state": "closed",
+        "scores_total": 3104968.378374463,
+        "scores": [
+          2103577.6831732388,
+          52.8285906741376,
+          1001337.8666105504
+        ],
+        "votes": 541,
+        "start": 1770836860,
+        "end": 1771441660,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x1c2875456a8696d35c8bf0ec1477500efcaa6f710e3ee1207832899d99941b0b",
+        "title": "[Proposal]: Disengagement of Avantgarde from Matching Pool Asset Management & Strategy Reset",
+        "state": "closed",
+        "scores_total": 3668385.4683310967,
+        "scores": [
+          3668183.200587389,
+          32.95029186076873,
+          169.31745184721004
+        ],
+        "votes": 484,
+        "start": 1769618309,
+        "end": 1770223109,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x3cbec1d4a3d46e45f0abebe4b3c9b3cc621026293b50ed5f8fa6df8faa558003",
+        "title": "[Proposal]: Disengagement of Avantgarde as Treasury Asset Manager",
+        "state": "closed",
+        "scores_total": 3668384.373197547,
+        "scores": [
+          3668184.1163095287,
+          42.18718917059252,
+          158.06969884769495
+        ],
+        "votes": 482,
+        "start": 1769618247,
+        "end": 1770223047,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x563e16e0e9b5cd722bff424624f391c5a160a7323a56434deca782bfc7c97d22",
+        "title": "[TEMP CHECK] Withdrawing remaining fees from PGN back to the Gitcoin Foundation and Gitcoin Treasury",
+        "state": "closed",
+        "scores_total": 3442842.7147244723,
+        "scores": [
+          3424914.0744830845,
+          17904.261173775678,
+          24.37906761176133
+        ],
+        "votes": 673,
+        "start": 1762203439,
+        "end": 1762808239,
+        "author": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x13c3dced815dba9c84475d1f70e8edd36ff4554473020e57926d3984643dfd6b",
+        "title": "[GCP-XXX] Gardens seedling GG24 Roadmap Funding",
+        "state": "closed",
+        "scores_total": 3877195.931548386,
+        "scores": [
+          3839372.4899940854,
+          86.82270721582782,
+          37736.618847084195
+        ],
+        "votes": 679,
+        "start": 1759343516,
+        "end": 1759948316,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xa7919dff7f637c19f9d536da367b43d94a4ee68e846998877cdbb37c63f59976",
+        "title": "[Amended Proposal]: GG24 Domains and Gitcoin Matching Pre-Ratification (Revision)",
+        "state": "closed",
+        "scores_total": 3876667.6457646815,
+        "scores": [
+          2355479.1017097817,
+          51.55084032881646,
+          1521136.993214571
+        ],
+        "votes": 696,
+        "start": 1758806055,
+        "end": 1759410855,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xfe763827c432492c9280eaef057698b1455e989b4ea18da7f9333a73bf82a111",
+        "title": "GG24 Domains and Gitcoin Matching Pre-Ratification",
+        "state": "closed",
+        "scores_total": 4372426.867589065,
+        "scores": [
+          2548912.293764656,
+          1823354.5844955668,
+          86.35335988553,
+          73.63596895647812
+        ],
+        "votes": 735,
+        "start": 1758045974,
+        "end": 1758650774,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Abstain",
+          "Against",
+          "No, ratify after round"
+        ]
+      },
+      {
+        "id": "0x5a60edb6ae264e1d659a68e9c9af106dfcfd3e3dd3f7d0722e080932dfbb15ad",
+        "title": "Gitcoin Governance Council Term 2 - Community Vote",
+        "state": "closed",
+        "scores_total": 2444725.3559161895,
+        "scores": [
+          24210.660736841834,
+          1618801.8770956993,
+          801712.8180836486
+        ],
+        "votes": 726,
+        "start": 1755858342,
+        "end": 1756463142,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xf314627153b88a8c2fa933a38bd1c841224d0bf8160bc68a2bfea742f7b7bf2a",
+        "title": "The final boss of Passing the Torch",
+        "state": "closed",
+        "scores_total": 6102568.001638034,
+        "scores": [
+          4483586.681170939,
+          53.15029283788648,
+          1618928.1701742576
+        ],
+        "votes": 741,
+        "start": 1755700917,
+        "end": 1756305717,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x92a36f55042108a839328a18f23b64dfdf1610e37a9ae00fb4ea130e45ad1583",
+        "title": "Grant Ships - Powering GG23 and Beyond",
+        "state": "closed",
+        "scores_total": 3083013.3615458896,
+        "scores": [
+          3082822.6668773303,
+          141.3414112694598,
+          49.353257290005345
+        ],
+        "votes": 782,
+        "start": 1752790660,
+        "end": 1753395460,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x63d2957d2ed09d345e22c610cf4898a4a3d1e326fc915f15abed748808021f5a",
+        "title": "[REVOTE] GG23 Pre-Ratification Proposal",
+        "state": "closed",
+        "scores_total": 2868258.2363982545,
+        "scores": [
+          2717129.0456539975,
+          186.1119595981083,
+          150943.07878466
+        ],
+        "votes": 1049,
+        "start": 1744172939,
+        "end": 1744777739,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xcf00de512cb500c78178a32db3a93528d7b5983d51105c5372151867eaeb1dce",
+        "title": "[SGTM 004]: Generating Yield on DAO Treasury Assets to Support Runway",
+        "state": "closed",
+        "scores_total": 2868127.50932214,
+        "scores": [
+          2867903.723199818,
+          147.8243066999539,
+          75.96181562235496
+        ],
+        "votes": 1041,
+        "start": 1744143586,
+        "end": 1744748386,
+        "author": "0x393BC37ea5493233D2bDC68FD59Dd97Ee01B18Cf",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x143291bab99a740eba64c18101a6203bd2d9c81bbcdef1b4c8cbc9b6a5973007",
+        "title": "GG23 Pre Ratification Proposal",
+        "state": "closed",
+        "scores_total": 2447115.7124190065,
+        "scores": [
+          2296124.169994039,
+          111.47117702092194,
+          150880.07124794598
+        ],
+        "votes": 1021,
+        "start": 1742998085,
+        "end": 1743602885,
+        "author": "0xdfBecC0b4aEF80b96Da27aB483feb0892472eaC2",
+        "choices": [
+          "For",
+          "Against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xe4e2086ae834a7c2776a9bbbf1bfc5b52ff78c8d01224048ebac7c568c7238a0",
+        "title": "VOTING for 5 Delegates -- 2025 Delegate Nominations",
+        "state": "closed",
+        "scores_total": 3157130.1065548696,
+        "scores": [
+          605055.9235314454,
+          584246.1955262248,
+          2065861.8711765192,
+          2016945.9233615615,
+          2066054.075734952,
+          960.8581808804385,
+          2867419.721788139,
+          284080.6524319554,
+          2064551.2470253631,
+          2175368.0737180617,
+          750.1354166862651
+        ],
+        "votes": 1068,
+        "start": 1739219626,
+        "end": 1739824426,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Benjamin Life",
+          "Afo",
+          "PGov",
+          "Puncar",
+          "SEEDGov",
+          "DAOplomats",
+          "Wasabi",
+          "Tomislav Mami\u0107",
+          "Tan\u00e9",
+          "Ivan Molto",
+          "Rodrigo Nu\u00f1ez"
+        ]
+      },
+      {
+        "id": "0xee2ebda98e107e57eb4bb19fd63a19f52bb73c9c38225ba8da65ef40388c2318",
+        "title": "Approve Multisig Structure for Avantgarde to Manage the Matching Pool Assets",
+        "state": "closed",
+        "scores_total": 2654146.28607571,
+        "scores": [
+          2614353.4582009264,
+          459.5293072188815,
+          39333.298567564496
+        ],
+        "votes": 1039,
+        "start": 1739205955,
+        "end": 1739810755,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, move funds per proposal",
+          "No, do not move funds",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x14c223b9e68c33955ffffbcbe7a1984c0e2e8e1378f7c407dc9ae5a610d605ff",
+        "title": "[PROPOSAL] 2025 Budget - Allo",
+        "state": "closed",
+        "scores_total": 3136813.181126557,
+        "scores": [
+          2593241.3781158444,
+          371.0660202741878,
+          543200.736990434
+        ],
+        "votes": 1036,
+        "start": 1739198246,
+        "end": 1739803046,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes. Allocate $2M to AlloCapital",
+          "No. Do not fund this launch.",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x845c3c57d7f03dcf1a1e6c2c09ba3a68006b75e409cad9345276ff4c5d8d8c38",
+        "title": "[PROPOSAL] Budget Request - Schelling Point & Eth Denver 2025",
+        "state": "closed",
+        "scores_total": 3158219.912081055,
+        "scores": [
+          2524737.769943917,
+          523.1651529045531,
+          632958.9769842331
+        ],
+        "votes": 1119,
+        "start": 1738846461,
+        "end": 1739451261,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes: Fund half costs at $78.9k",
+          "No. Do not fund. ",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xb8dfbefd47373a98ac4684af50f61dad738650830f4f106347cb3c4a8dec79ab",
+        "title": "[Proposal] Revamp Gitcoin 2025 Governance",
+        "state": "closed",
+        "scores_total": 2902953.2225075774,
+        "scores": [
+          2902340.3721533273,
+          404.8038336039214,
+          208.0465206462465
+        ],
+        "votes": 1000,
+        "start": 1737655858,
+        "end": 1738260658,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, I approve the Gov. Revamp",
+          "No, I vote against",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x7d5fe022bd18a1caac9528c56d4a2a47b5d6692e71168c166def489bf19b5ab6",
+        "title": "[PROPOSAL] 2025 Gitcoin DAO Budget",
+        "state": "closed",
+        "scores_total": 3138449.123991786,
+        "scores": [
+          2283339.9793005865,
+          21127.803886114853,
+          833981.3408050848
+        ],
+        "votes": 1096,
+        "start": 1736978991,
+        "end": 1737583791,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, fund the DAO for $808,098",
+          "No, do not fund the DAO",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xd2b0853e328b3bdef16a526b2291a6e8a6897826dfca2d5d7a220f90ae1789f5",
+        "title": "[PROPOSAL] 2025 Grants Lab Budget",
+        "state": "closed",
+        "scores_total": 3176905.4103254788,
+        "scores": [
+          1759552.1481900646,
+          20968.921415159693,
+          1396384.340720256
+        ],
+        "votes": 1088,
+        "start": 1736978440,
+        "end": 1737583240,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, Approve the 2025 GL Budget",
+          "No, Do not approve the budget.",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x524d7f51ea46bdc8fc461b999eff7a8da146386e5a49528b31d0a41293f0fe13",
+        "title": "[REVOTE] Engage Avantgarde for Strategic Asset Management of the Matching Pool",
+        "state": "closed",
+        "scores_total": 2911868.197357783,
+        "scores": [
+          2911204.5002052565,
+          419.5726668583317,
+          244.12448566826905
+        ],
+        "votes": 1088,
+        "start": 1736281070,
+        "end": 1736885870,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, Avantgarde to Manage the MP",
+          "No, do not engage Avantgarde",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x8b698644c08b424f87709228caa0ee11af6a3a047d47032b0f45a7f971d15696",
+        "title": "[Proposal] Engage Avantgarde for Strategic Asset Management of the Matching Pool",
+        "state": "closed",
+        "scores_total": 2204824.5023639007,
+        "scores": [
+          2158968.349975752,
+          45218.17426287206,
+          637.9781252759567
+        ],
+        "votes": 1086,
+        "start": 1734980015,
+        "end": 1735584815,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, Grant Matching Pool Mgmt",
+          "No.",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x708e9b02a7c5c173aeefa353fc78cd5d2d1e6ea05163481276be2f580355b9e1",
+        "title": "[Proposal] Unlock up to $20K in matching funds/yr by exchanging $500k USDC for USDGLO",
+        "state": "closed",
+        "scores_total": 2416649.9677535146,
+        "scores": [
+          1025782.6326094464,
+          1390517.5946587685,
+          349.74048529735103
+        ],
+        "votes": 1094,
+        "start": 1733427067,
+        "end": 1734031867,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes. Swap 500k USDC for USDGLO",
+          "No. Do not proceed with the swap",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x060949f5b000ee923a3478933274ed82130af924ffd0d774883f9f1b88622e9e",
+        "title": "Proposal: Approve the pre-ratified matching fund amounts for GG22",
+        "state": "closed",
+        "scores_total": 2995608.9296169123,
+        "scores": [
+          2894157.995730448,
+          323.2603907157922,
+          101127.67349574844
+        ],
+        "votes": 1223,
+        "start": 1729193653,
+        "end": 1729798453,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes, Approve matching funds",
+          "No.",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xe4ea71ad1e49384952cf6bfd8c02e3a0669fe8f2d3fe39f88d614bba358d0263",
+        "title": "Earmark 6.9m GTC to Citizens Fund",
+        "state": "closed",
+        "scores_total": 3123704.0370819313,
+        "scores": [
+          3122762.554378097,
+          730.7971940616391,
+          210.68550977233087
+        ],
+        "votes": 1054,
+        "start": 1727112200,
+        "end": 1727717000,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes Earmark 6.9M to GTC Citizens",
+          "No. Do Not Earmark 6.9M",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0x9f8b42e06548e4be94d23a001dab465cfdde885cbac19130ab093ea2498ae5b7",
+        "title": "Updating Community Multisig Signers on gitcoin.eth",
+        "state": "closed",
+        "scores_total": 3078991.7527165147,
+        "scores": [
+          2977175.567893695,
+          379.6565218449249,
+          101436.5283009743
+        ],
+        "votes": 1041,
+        "start": 1727111651,
+        "end": 1727716451,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes. Swap 2 multisig signers.",
+          "No. Do not swap 2 signers. ",
+          "Abstain"
+        ]
+      },
+      {
+        "id": "0xb021cddb9662406e2655b654f23077b99d2717b41dbfe217c08299f613055433",
+        "title": "Delegate Gitcoin\u2019s GloDollar to fund public goods via GloDollar",
+        "state": "closed",
+        "scores_total": 2935822.159353192,
+        "scores": [
+          2935382.7496400084,
+          197.31900003279853,
+          242.0907131496284
+        ],
+        "votes": 1060,
+        "start": 1723749527,
+        "end": 1724354327,
+        "author": "0xa53D1eED800BD55d15C01733C2647AC77017aaA8",
+        "choices": [
+          "Yes. Approve the delegation.",
+          "No. Do not delegate.",
+          "Abstain."
+        ]
+      }
+    ]
+  },
+  "treasury": [
+    {
+      "name": "Governor Timelock",
+      "address": "0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518",
+      "eth": 138.7635666379654,
+      "gtc": 12508498.095757103,
+      "gtcUsd": 867426.8174464678
+    },
+    {
+      "name": "Treasury Vester (historical)",
+      "address": "0x44Aa9c5a034C1499Ec27906E2D427b704b567ffe",
+      "eth": 0,
+      "gtc": 0,
+      "gtcUsd": 0
+    }
+  ],
+  "influenceCalculator": {
+    "token": "GTC",
+    "priceUsd": 0.069347,
+    "totalSupply": 100000000,
+    "totalVotingPower": 16308423.18246786,
+    "quorumVotes": 2500000,
+    "proposalThreshold": 150000,
+    "scenarios": [
+      {
+        "name": "Submit proposal",
+        "gtc": 150000,
+        "usd": 10402.050000000001,
+        "shareOfVp": 0.009197700986889731
+      },
+      {
+        "name": "Meet quorum (self-vote)",
+        "gtc": 2500000,
+        "usd": 173367.50000000003,
+        "shareOfVp": 0.15329501644816218
+      },
+      {
+        "name": "15% of current VP",
+        "gtc": 2446263.477370179,
+        "usd": 169641.0333651898,
+        "shareOfVp": 0.15
+      },
+      {
+        "name": "50% of current VP (Nakamoto-style)",
+        "gtc": 8154211.59123393,
+        "usd": 565470.1112172994,
+        "shareOfVp": 0.5
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "category": "Token",
+      "name": "GTC",
+      "address": "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F",
+      "description": "ERC20Votes governance token"
+    },
+    {
+      "category": "Governance",
+      "name": "Governor Bravo",
+      "address": "0x9D4C63565D5618310271bF3F3c01b2954C1D1639",
+      "description": "On-chain Compound-style governor"
+    },
+    {
+      "category": "Governance",
+      "name": "Timelock",
+      "address": "0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518",
+      "description": "2-day minimum execution delay"
+    },
+    {
+      "category": "Treasury",
+      "name": "Treasury Vester",
+      "address": "0x44Aa9c5a034C1499Ec27906E2D427b704b567ffe",
+      "description": "Historical vesting / treasury-related contract"
+    },
+    {
+      "category": "Off-chain",
+      "name": "Snapshot space",
+      "address": "gitcoindao.eth",
+      "description": "gitcoindao.eth signaling votes"
+    }
+  ]
+}
